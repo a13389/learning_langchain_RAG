@@ -22,3 +22,7 @@ print("一共是",len(embedded[0]),"维度")
 
 for r in embedded:
     print(r[:8])
+    
+    
+if __name__ == "__main__":
+    main()
