@@ -9,6 +9,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter, CharacterTe
 from langchain_community.vectorstores import Chroma
 
 # 加载文本并切分
+## 加载文本
+
 qianfan_embeddings = QianfanEmbeddingsEndpoint(model="bge_large_zh", endpoint="bge_large_zh")
 import os
 
